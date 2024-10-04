@@ -1,0 +1,561 @@
+.container-layout {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.navOuter img {
+    height: 79px;
+    width: 55px;
+}
+
+.navOuter a {
+    text-transform: uppercase;
+}
+
+.nav-item a:hover {
+    color: #000 !important;
+}
+
+.nav-item a:hover>i {
+    color: #000 !important;
+}
+
+
+
+
+.spin {
+    height: 75px !important;
+    width: 75px !important;
+}
+
+.micoButtons .carousel-control-prev-icon {
+    background-color: #00c6a9;
+    height: 50px;
+    width: 50px;
+}
+
+.micoButtons .carousel-control-next-icon {
+    background-color: #00c6a9;
+    height: 50px;
+    width: 50px;
+}
+
+.micoButtons .carousel-control-prev {
+    position: unset !important;
+}
+
+.micoButtons .carousel-control-next {
+    position: unset !important;
+}
+
+.micoButtons {
+    display: flex;
+    justify-content: end;
+}
+
+.micoHospital {
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+.micoHospitalText h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.circle {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: #00c6a9;
+    position: relative;
+    bottom: 74px;
+    left: 5px;
+}
+
+.pIcon {
+    position: relative;
+    left: 26px;
+    top: 19px;
+    font-size: 18px;
+}
+
+.h1 {
+    padding-right: 142px;
+    margin-right: 140px;
+}
+
+.bookingFormHeading h2 {
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.bookingFormHeading h2::before {
+    content: '';
+    height: 2px;
+    width: 80px;
+    background-color: #00c6a9;
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+}
+
+.formInput input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #09c6a9;
+    border-radius: 5px;
+}
+
+.formInput input:focus {
+    outline: none;
+}
+
+.formInput select:focus {
+    outline: none;
+}
+
+.formInput select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #09c6a9;
+    border-radius: 5px;
+}
+
+#pnum::placeholder {
+    color: #00c6a9;
+}
+
+input#dat {
+    color: #00c6a9;
+}
+
+.bookingBtn button {
+    background-color: #252525;
+    color: #fff;
+    padding: 10px 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.aboutText h2 {
+    font-weight: 700;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutText p {
+    color: #999;
+    margin-top: 15px;
+}
+
+button.aboutBtm {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #252525;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+}
+
+button:hover.aboutBtm {
+    background-color: #000;
+}
+
+.treatment h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.treatment i {
+    font-size: 50px;
+}
+
+button.treatmentBtm {
+    border: none;
+    background-color: transparent;
+    color: #00c6a9;
+    text-transform: uppercase;
+    padding: 0px;
+}
+
+button:hover.treatmentBtm {
+    color: #000;
+}
+
+.imgBox {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('images/treatment-side-img.jpg');
+    background-size: 168px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    opacity: 1;
+}
+
+
+.boxText h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+.boxText h4 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1rem;
+    color: #00c6a9;
+    margin-bottom: 15px;
+}
+
+.hhhh {
+    position: relative;
+    bottom: 270px;
+}
+
+
+.gtco-testimonials {
+    position: relative;
+}
+
+
+.gtco-testimonials .owl-stage-outer {
+    padding: 30px 0;
+}
+
+.gtco-testimonials .owl-nav {
+    display: block;
+}
+
+/* .gtco-testimonials .owl-dots {
+    text-align: center;
+}
+
+.gtco-testimonials .owl-dots span {
+    position: relative;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: block;
+    background: #fff;
+    border: 2px solid #01b0f8;
+    margin: 0 5px;
+}
+
+.gtco-testimonials .owl-dots .active span {
+    background: #01b0f8;
+    box-shadow: none;
+    height: 12px;
+    width: 12px;
+    margin-bottom: -1px;
+} */
+
+.gtco-testimonials .card {
+    background: #fff;
+    margin: 0 20px;
+    padding: 0 10px;
+    border: 0;
+}
+
+.gtco-testimonials .card .card-img-top {
+    margin-top: -20px;
+}
+
+.gtco-testimonials .card h5 {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.gtco-testimonials .card h5 span {
+    font-size: 18px;
+    color: #666666;
+}
+
+.gtco-testimonials .card p {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #00c6a9;
+}
+
+.ico i {
+    margin: 12px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    outline: 0;
+}
+
+button.owl-next {
+    position: absolute;
+    right: 0px;
+    top: 160px;;
+}
+
+button.owl-prev {
+    position: absolute;
+    left: 0px;
+    top: 160px;
+}
+
+button.owl-next span {
+    font-size: 60px;
+}
+
+button.owl-prev span {
+    font-size: 60px;
+}
+
+
+.testimonialButtons .carousel-control-prev {
+    background-color: #00c6a9;
+    width: 45px;
+    height: 125px;
+    opacity: 1;
+    position: absolute;
+    left: -47px;
+    top: 38px;
+}
+
+.testimonialButtons .carousel-control-next {
+    background-color: #00c6a9;
+    width: 45px;
+    height: 125px;
+    opacity: 1;
+    position: absolute;
+    right: -47px;
+    top: 38px;
+}
+
+.post1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.tText i {
+    float: right;
+}
+
+.tText h3 {
+    font-weight: 600;
+    color: #00c6a9;
+    font-size: 1.25rem;
+}
+
+.tText h4 {
+    margin-bottom: 0;
+    color: #bfc0c0;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.tText p {
+    margin-top: 16px;
+}
+
+.contactFormHeading h2 {
+    font-weight: 700;
+}
+
+.mainForm input {
+    width: 100%;
+    padding: 12px;
+}
+
+.mainForm input {
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #09c6a9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.mainForm input:focus {
+    outline: none;
+}
+
+.mainForm ::placeholder {
+    color: #00c6a9;
+}
+
+.msg {
+    height: 100px;
+}
+
+.mainForm button {
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 65px;
+    background-color: #00c6a9;
+    color: #fff;
+    border-radius: 0;
+    font-weight: 700;
+}
+
+.mainForm button:hover {
+    background-color: #0f9480;
+}
+
+
+
+
+
+
+.footerForm input {
+    width: 90%;
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footerForm input:focus {
+    outline: none;
+}
+
+button.footerButton {
+    color: #00c6a9;
+    border: none;
+    background-color: transparent;
+    font-weight: normal;
+}
+
+.rectangle {
+    height: 15px;
+    width: 15px !important;
+    background-color: #00c6a9;
+}
+
+.usefulLinks a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    ;
+}
+
+.usefulLinks a:hover {
+    color: #00c6a9;
+}
+
+.posts img {
+    width: 55px;
+    height: 42px;
+}
+
+.post1 {
+    width: 80%;
+}
+
+.post2 {
+    width: 80%;
+}
+
+.news img {
+    width: 55px;
+    height: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .addressHeading {
+        justify-content: center;
+    }
+
+    .address {
+        text-align: center;
+    }
+
+    .linkssHeading {
+        justify-content: center;
+    }
+
+    .usefulLinks {
+        text-align: center;
+    }
+
+    .postsHeading {
+        justify-content: center;
+    }
+
+    .newssHeading {
+        justify-content: center;
+    }
+
+    .post1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .post2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .headerInfo a {
+        display: none;
+    }
+
+    .headerInfo {
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hhhh {
+        position: relative;
+        bottom: 10px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .gtco-testimonials {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .testimonialButtons .carousel-control-prev {
+        width: 45px;
+        height: 45px;
+    }
+
+    .testimonialButtons .carousel-control-next {
+        width: 45px;
+        height: 45px;
+    }
+}
